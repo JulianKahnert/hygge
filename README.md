@@ -1,14 +1,25 @@
 # [Hygge](https://en.wikipedia.org/wiki/Hygge) Theme for [HA Dashboard](https://home-assistant.io)!
 
-First attempt creating a puristic color theme for the second version of [HA Dashboard](https://github.com/home-assistant/appdaemon/blob/hadashboard_beta/README.md).
+First attempt creating a puristic color theme for the second version of [HA Dashboard](https://github.com/home-assistant/appdaemon/blob/hadashboard_beta/README.md) (currently in beta).
 
 
 # Preview
 
-![Screenshot 1](img/screen1.png?raw=true)
+![Screenshot 1](img/screen1.jpg?raw=true)
 
 ![Screenshot 2](img/screen2.png?raw=true)
 
+# Installation
+
+Add the skin to the `custom_css` folder:
+```sh
+git clone https://github.com/JulianKahnert/hygge.git /PATH/TO/custom_css/hygge
+```
+
+Start your Hygge-Dashboard:
+```
+http://<ip address>:<port>/<dashboard name>?skin=hygge
+```
 
 # Example Screensaver Configuration
 
