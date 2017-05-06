@@ -1,33 +1,23 @@
 #
 # Custom head includes - should be a YAML List, e.g.:
 #
-#head_includes:
-#  - some include
-#  - some other include
-#
-# Text will be included verbatim in the head section of the doc, use for styles,
-# javascript or 3rd party css etc. etc.
-#
-# It is your responsibility to ensure the HTML is correct
-#
 
 head_includes:
- - <! head tags go here ->
+ - <meta id="extViewportMeta" name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+ - "<style> html, body {margin: 0; padding: 0; overflow: hidden} </style>"
 
 #
 # Custom body includes - should be a YAML List, e.g.:
 #
-#body_includes:
-#  - some include
-#  - some other include
-#
-# Text will be included verbatim in the body section of the doc, use it for JavaScript
-#
-# It is your responsibility to ensure the HTML is correct
-#
 
 body_includes:
- - <! body tags go here ->
+ - "  <script>"
+ - "    document.body.addEventListener('touchmove', function(event) {"
+ - "      console.log(event.source);"
+ - "      //if (event.source == document.body)"
+ - "        event.preventDefault();"
+ - "    }, false);"
+ - "  </script>"
 
 #
 # Styles
