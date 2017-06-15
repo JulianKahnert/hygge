@@ -46,7 +46,7 @@ style_active: "color: $beige"
 style_active_warn: "color: $red"
 style_info: "color: $gray_dark"
 style_title: "color: $gray_dark"
-style_title2: "color: $gray_dark"
+style_title2: "color: $gray_light"
 
 # Widget Default Definitions
 
