@@ -1,6 +1,6 @@
 # [Hygge](https://en.wikipedia.org/wiki/Hygge) Theme for [HA Dashboard](https://home-assistant.io)!
 
-First attempt creating a puristic color theme for the second version of [HA Dashboard](https://github.com/home-assistant/appdaemon/blob/hadashboard_beta/README.md) (currently in beta).
+First attempt creating a puristic color theme for the second version of [HA Dashboard](https://github.com/home-assistant/appdaemon/blob/master/DASHBOARD.md).
 
 
 # Preview
