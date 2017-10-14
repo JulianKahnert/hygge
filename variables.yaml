@@ -68,8 +68,8 @@ mode_title2_style: $style_title2
 mode_widget_style: $background_style
 mode_state_text_style: "color: $gray_light"
 
-script_icon_on: fa-th-large
-script_icon_off: fa-th-large
+script_icon_on: mdi-tune
+script_icon_off: mdi-tune
 script_icon_style_active: $style_active
 script_icon_style_inactive: $style_inactive
 script_title_style: $style_title
@@ -104,8 +104,8 @@ input_boolean_title2_style: $style_title2
 input_boolean_widget_style: $background_style
 input_boolean_state_text_style: "color: $gray_medium"
 
-switch_icon_on: fa-circle
-switch_icon_off: fa-circle-thin
+switch_icon_on: mdi-toggle-switch
+switch_icon_off: mdi-toggle-switch-off
 switch_icon_style_active: $style_active
 switch_icon_style_inactive: $style_inactive
 switch_title_style: $style_title
@@ -196,8 +196,8 @@ media_player_widget_style: $background_style
 media_player_icon_style_previous: "color: $gray_light"
 media_player_icon_style_next: "color: $gray_light"
 
-light_icon_on: fa-circle
-light_icon_off: fa-circle-thin
+light_icon_on: mdi-toggle-switch
+light_icon_off: mdi-toggle-switch-off
 light_icon_up: fa-plus
 light_icon_down: fa-minus
 light_title_style: $style_title
