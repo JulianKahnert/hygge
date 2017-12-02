@@ -5,7 +5,7 @@ First attempt creating a puristic color theme for the second version of [HA Dash
 
 # Preview
 
-![Screenshot 1](img/screen1.jpg?raw=true)
+![Screenshot 1](img/screen1.png?raw=true)
 
 ![Screenshot 2](img/screen2.png?raw=true)
 
