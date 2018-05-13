@@ -173,8 +173,8 @@ reload_widget_style: $background_style
 
 navigate_icon_active: fa-spinner fa-spin
 navigate_icon_inactive: fa-gear
-navigate_icon_active_style: "color: $gray_medium"
-navigate_icon_inactive_style: "color: $gray_medium"
+navigate_icon_active_style: "color: $gray_light"
+navigate_icon_inactive_style: "color: $gray_light"
 navigate_title_style: $style_title
 navigate_title2_style: $style_title2
 navigate_widget_style: $background_style
