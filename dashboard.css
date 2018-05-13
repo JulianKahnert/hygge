@@ -9,6 +9,13 @@ html {
 body {
   margin: 0;
   background-color: #F3F3F5;
+  background-image: url(/custom_css/hygge/img/background1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   font-size: 15px;
   color: #fff;
   padding: 0;
@@ -64,30 +71,31 @@ h1 {
   margin-bottom: 6px;
   text-align: center;
   font-size: 100%;
-  font-weight: 200;
+  font-weight: 450;
 }
 h2 {
-  font-size: 300%;
-  font-weight: 400;
-  color: #fff;
+  font-size: 290%;
+  font-weight: 300;
 }
 h3 {
-  font-size: 125%;
+  font-size: 100%;
   font-weight: 300;
-  color: #fff;
 }
 
 input {
-  background-color: #444;
   border: none;
 }
 
 .dashboard_main {
-    margin: 0px auto;
+  margin: 0px auto;
 }
 
 .gridster {
   margin: 0px auto;
+}
+
+.secondary-icon {
+  bottom: 7px;
 }
 
 .icon-background {
@@ -131,10 +139,11 @@ input {
   width: 100%;
   display: table-cell;
   vertical-align: middle;
-  background-color: #444444;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;}
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  margin: 0 0 2em;
+}
 
   .title {
     color: #fff;
