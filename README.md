@@ -37,27 +37,11 @@ global_parameters:
     precision: 1
     use_hass_icon: 1
 
-iframe:
-    widget_type: iframe
-    refresh: 1800
-    img_list:
-      - http://decoholic.org/wp-content/uploads/2014/12/scandinavian-design-1.jpg
-      - http://cdn.freshome.com/wp-content/uploads/2014/01/6-Series-7-Scandinavian-Design.jpg
-      - http://www.greatwallart.com/wp-content/uploads/2016/04/swedish-design-3-scandinavian-design-also-typical-scandinavian-light-interior-images-scandinavian-interior-design.jpg
-      - http://www.contemporist.com/wp-content/uploads/2016/07/scandinavian-interiors_140716_01-800x420.jpg
-      - http://cdn.homedit.com/wp-content/uploads/2015/04/Minimal-wood-treatment.jpg
-
 layout:
-    - iframe(8x5)
+    - spacer(8x1)
     - spacer(8x1)
     - spacer(8x1)
     - spacer(8x1)
     - spacer(8x1)
     - include: bottom_panel
-```
-
-It seems like pictures are rendered correctly even without the google proxy.
-If this is not the case on your machine, change the `img_list` like this:
-```
-https://images1-focus-opensocial.googleusercontent.com/gadgets/proxy?url=http://cdn.homedit.com/wp-content/uploads/2015/04/Minimal-wood-treatment.jpg&container=focus&refresh=240&resize_h=640&resize_h=640
 ```

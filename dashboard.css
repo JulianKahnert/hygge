@@ -9,7 +9,13 @@ html {
 body {
   margin: 0;
   background-color: #F3F3F5;
-  background-image: url(/custom_css/hygge/img/background1.jpeg);
+  background-image: url(/custom_css/hygge/img/background1.jpg);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
   font-size: 15px;
   color: #fff;
   padding: 0;
