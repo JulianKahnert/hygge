@@ -32,20 +32,24 @@ blue: "#4E88A1"
 offwhite: "#F3F3F5"
 offwhite_dark: "#E5E4E2"
 # offwhite_dark: "#C1C0BE"
-gray_light: "#B8B6B3"
-gray_medium: "#71706E"
-gray_dark: "#313131"
+gray_light: "rgba(134, 132, 129, 0.95);"
+gray_medium: "rgba(44, 42, 39, 0.95);"
+gray_dark: "rgba(14, 12, 9, 1.00);"
+# gray_light: "#B8B6B3"
+# gray_medium: "#71706E"
+# gray_dark: "#313131"
 
 #Page and widget defaults
-background_style: "background-color: $offwhite_dark"
+background_style: "background-color: rgba(255, 255, 255, 0.90);"
 text_style: "color: $gray_dark"
+level_style: "color: $gray_medium; font-weight: 450;"
 
 #These are used for icons and indicators
 style_inactive: "color: $gray_light"
 style_active: "color: $beige"
 style_active_warn: "color: $red"
 style_info: "color: $gray_dark"
-style_title: "color: $gray_dark"
+style_title: "color: $gray_dark; font-size: 105%; font-weight: 500;"
 style_title2: "color: $gray_light"
 
 # Widget Default Definitions
@@ -93,7 +97,7 @@ device_tracker_icon_style_inactive: $style_inactive
 device_tracker_title_style: $style_title
 device_tracker_title2_style: $style_title2
 device_tracker_widget_style: $background_style
-device_tracker_state_text_style: "color: $gray_medium"
+device_tracker_state_text_style: "color: $gray_medium; font-size: 85%; font-weight: 200;"
 
 input_boolean_icon_on: fa-sliders
 input_boolean_icon_off: fa-sliders
@@ -149,6 +153,7 @@ sensor_title_style: $style_title
 sensor_title2_style: $style_title2
 sensor_value_style: "color: $blue; font-size: 250%"
 sensor_text_style: "color: $gray_medium; font-size: 100%"
+sensor_state_text_style: "color: $gray_medium; font-size: 100%"
 sensor_unit_style: "color: $blue; font-size: 100%"
 sensor_widget_style: $background_style
 
@@ -188,8 +193,8 @@ media_player_artist_style: $style_title2
 media_player_icon_style_active: "color: $beige"
 media_player_icon_style_inactive: "color: $gray_light"
 media_player_state_text_style: "color: $gray_medium"
-media_player_units_style: "color: $gray_medium"
-media_player_level_style: "color: $gray_medium"
+media_player_units_style: $level_style
+media_player_level_style: $level_style
 media_player_level_up_style: "color: $gray_light"
 media_player_level_down_style: "color: $gray_light"
 media_player_widget_style: $background_style
@@ -205,8 +210,8 @@ light_title2_style: $style_title2
 light_icon_style_active: $style_active
 light_icon_style_inactive: $style_inactive
 light_state_text_style: "color: $gray_dark"
-light_level_style: "color: $gray_medium"
-light_unit_style:  "color: $gray_medium"
+light_level_style: $level_style
+light_unit_style: $level_style
 light_level_up_style: "color: $gray_light"
 light_level_down_style: "color: $gray_light"
 light_widget_style: $background_style
@@ -215,8 +220,8 @@ input_slider_icon_up: fa-plus
 input_slider_icon_down: fa-minus
 input_slider_title_style: $style_title
 input_slider_title2_style: $style_title2
-input_slider_level_style: "color: $gray_medium"
-input_slider_unit_style: "color: $gray_medium"
+input_slider_level_style: $level_style
+input_slider_unit_style: $level_style
 input_slider_level_up_style: "color: $gray_light"
 input_slider_level_down_style: "color: $gray_light"
 input_slider_widget_style: $background_style
@@ -225,13 +230,13 @@ climate_icon_up: fa-plus
 climate_icon_down: fa-minus
 climate_title_style: $style_title
 climate_title2_style: $style_title2
-climate_level_style: "color: $gray_medium"
-climate_unit_style: "color: $gray_medium"
+climate_level_style: $level_style
+climate_unit_style: $level_style
 climate_level_up_style: "color: $gray_light"
 climate_level_down_style: "color: $gray_light"
 climate_widget_style: $background_style
-climate_level2_style: "color: $gray_medium"
-climate_unit2_style: "color: $gray_medium"
+climate_level2_style: $level_style
+climate_unit2_style: $level_style
 
 group_icon_on: fa-google-circles-communities
 group_icon_off: fa-google-circles-communities
@@ -242,11 +247,11 @@ group_title2_style: $style_title2
 group_icon_style_active: $style_active
 group_icon_style_inactive: $style_inactive
 group_state_text_style: "color: $gray_medium"
-group_level_style: "color: $gray_medium"
+group_level_style: $level_style
 group_level_up_style: "color: $gray_light"
 group_level_down_style: "color: $gray_light"
 group_widget_style: $background_style
-group_unit_style: "color: $gray_medium"
+group_unit_style: $level_style
 
 iframe_title_style: "$style_title; background-color: rgba(0, 0, 0, 0.5)"
 iframe_widget_style: $background_style
