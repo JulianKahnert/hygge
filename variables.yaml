@@ -1,3 +1,4 @@
+
 #
 # Custom head includes - should be a YAML List, e.g.:
 #
@@ -171,10 +172,10 @@ reload_title_style: $style_title
 reload_title2_style: $style_title2
 reload_widget_style: $background_style
 
-navigate_icon_active: fa-spinner fa-spin
-navigate_icon_inactive: fa-gear
-navigate_icon_active_style: "color: $gray_light"
-navigate_icon_inactive_style: "color: $gray_light"
+navigate_icon_active: mdi-settings-outline
+navigate_icon_inactive: mdi-settings-outline
+navigate_icon_active_style: $style_active
+navigate_icon_inactive_style: $style_inactive
 navigate_title_style: $style_title
 navigate_title2_style: $style_title2
 navigate_widget_style: $background_style
